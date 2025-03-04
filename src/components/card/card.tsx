@@ -1,8 +1,8 @@
-import { LucideIcon } from 'lucide-react'
+import type { ElementType } from 'react'
 
 interface CardProps {
   variant?: 'primary' | 'secondary'
-  icon: LucideIcon
+  icon: ElementType
   title: string
   text: string
 }
